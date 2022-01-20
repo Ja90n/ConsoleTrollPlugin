@@ -16,7 +16,7 @@ public class mlgCommand implements CommandExecutor {
         if (args.length == 1){
             try {
                 Player target = Bukkit.getPlayer(args[0]);
-                target.sendMessage(ChatColor.LIGHT_PURPLE + "Je bent " + ChatColor.WHITE + "50" + ChatColor.LIGHT_PURPLE + " blocken de lucht in gestuurt, succes met de mlg");
+                target.sendMessage(ChatColor.LIGHT_PURPLE + "You have been teleported " + ChatColor.WHITE + "50" + ChatColor.LIGHT_PURPLE + " blocks into the air, goodluck with the MLG!");
                 target.teleport(target.getLocation().add(0, 50, 0));
                 try {
                     ItemStack hand = target.getInventory().getItemInMainHand();
@@ -34,7 +34,7 @@ public class mlgCommand implements CommandExecutor {
                 try {
                     int height = Integer.parseInt(args[1]);
                     target.teleport(target.getLocation().add(0,height,0));
-                    target.sendMessage(ChatColor.LIGHT_PURPLE + "Je bent " + ChatColor.WHITE + height + ChatColor.LIGHT_PURPLE +" blocken de lucht in gestuurt, succes met de mlg");
+                    target.sendMessage(ChatColor.LIGHT_PURPLE + "You have been teleported " + ChatColor.WHITE + height + ChatColor.LIGHT_PURPLE +" blocks into the air, goodluck with the MLG!");
                     try {
                         ItemStack hand = target.getInventory().getItemInMainHand();
                         try {
