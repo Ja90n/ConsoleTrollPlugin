@@ -1,0 +1,6 @@
+name: ConsoleTrollPlugin
+version: '${project.version}'
+main: com.blub.consoletrollplugin.Consoletrollplugin
+api-version: 1.18
+authors: [ Blub ]
+description: A troll plugin that you can operate via the console
