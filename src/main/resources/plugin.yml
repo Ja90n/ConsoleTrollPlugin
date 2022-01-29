@@ -6,4 +6,5 @@ authors: [ Blub ]
 description: A troll plugin that you can operate via the console
 commands:
   mlg:
+  vanish:
 
